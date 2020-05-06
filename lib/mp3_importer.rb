@@ -8,10 +8,10 @@ end
 def files
    file_array =  Dir.glob("#{path}/*.mp3")
   file_array.collect do |file| #collect returns array
-    file.slice!("#{path}/")
+    file.slice!("#{path}/") #slice takes the #{path} as an argument
     file
   end
-end 
+end
 
 
 end
