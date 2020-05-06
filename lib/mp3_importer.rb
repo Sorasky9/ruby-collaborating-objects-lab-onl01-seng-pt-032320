@@ -7,8 +7,9 @@ end
 
 def files
 file_array = Dir.glob('#{path}/*.mp3').each do {|file| }
-  
+
 puts file
+end
 end
 
 
