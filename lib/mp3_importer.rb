@@ -15,7 +15,7 @@ end
 
 def import
        files.each do |file| #iterate over the updated "file" from the previous method
-         Song.new_by_filename(file)
+         Song.new_by_filename(file) #create a new Song instace using .new with the file elements from here 
       #song.new
         end
  end
