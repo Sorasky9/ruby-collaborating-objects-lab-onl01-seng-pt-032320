@@ -14,7 +14,7 @@ def files
 end
 
 def import
-       files.each do |file|
+       files.each do |file| #iterate over the updated "file" from the previous method
          Song.new_by_filename(file)
       #song.new
         end
