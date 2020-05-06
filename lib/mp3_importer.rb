@@ -6,7 +6,7 @@ def initialize(path)
 end
 
 def files
-file_array = Dir.glob('#{path}/*.mp3').each do {|file| }
+file_array = Dir.glob('#{path}/*.mp3').each do |file| 
 
 puts file
 end
